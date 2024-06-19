@@ -6,28 +6,6 @@ include_once 'Empresa.php';
 include_once 'Viaje.php';
 include_once 'BaseDatos.php';
 
-/* $objEmpresa = new Empresa(1,"Pepe S.A","Av.Siempreviva 742");
-$empresaCargada = $objEmpresa->cargar();
-$objEmpresa->insertar();
-
-$paramResponsable = [
-    'nrodoc' => 6785342341,
-    'nombre' => "El",
-    'apellido' => "Enzo",
-    'telefono' => 298345435,
-    'numeroEmpleado' => 1,
-    'rnumerolicencia' => 7777
-];
-
-$objResponsable = new ResponsableV($paramResponsable);
-$responsableCargado = $objResponsable->cargar($paramResponsable);
-$objResponsable->insertar(); 
-
-$objViaje = new Viaje(1,"Neuquen",7,$empresaCargada,$responsableCargado,4000);
-$viajeCargado = $objViaje->cargar();
-$objViaje->insertar();
-*/
-
 $bandera = false;
 while (!$bandera) {
     echo "\nMenu:\n";
